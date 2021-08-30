@@ -44,7 +44,7 @@ Module.register("calendar", {
 		calendars: [
 			{
 				symbol: "calendar",
-				url: "https://www.calendarlabs.com/templates/ical/US-Holidays.ics"
+				url: "http://mypanchang.com/2021icals/2021india.ics"
 			}
 		],
 		titleReplace: {

@@ -29,3 +29,15 @@
   
   --gap-modules: 30px;
 }
+
+body {
+        margin: 0;
+	position: absolute;
+ 	transform: rotate(-90deg);
+ 	transform-origin: bottom left;
+	width: 100vh;
+	height: 100vw;
+	object-fit: cover;
+	top: -100vw;
+        visibility: visible;
+ }

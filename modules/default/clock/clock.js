@@ -26,12 +26,12 @@ Module.register("clock", {
 		analogPlacement: "bottom", // options: 'top', 'bottom', 'left', 'right'
 		analogShowDate: "top", // options: false, 'top', or 'bottom'
 		secondsColor: "#888888",
-		timezone: null,
+		timezone: "Asia/Kolkata",
 
 		showSunTimes: false,
 		showMoonTimes: false,
-		lat: 47.630539,
-		lon: -122.344147
+		lat: 28.7041,
+		lon: 77.1025
 	},
 	// Define required scripts.
 	getScripts: function () {

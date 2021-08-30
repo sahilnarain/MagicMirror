@@ -15,7 +15,7 @@
   --gap-body-bottom: 60px;
   --gap-body-left: 60px;
 
-  --gap-modules: 30px;
+  --gap-modules: 80px;
 }
 
 html {
@@ -237,4 +237,24 @@ sup {
   width: 100%;
   border-spacing: 0;
   border-collapse: separate;
+}
+
+body {
+  margin: 0;
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: top left;
+  width: 100vh;
+  height: 100vw;
+  object-fit: cover;
+  top: 100vh;
+  visibility: visible;
+}
+
+.xane-logo {
+  text-align: left;
+}
+
+.xane-logo > img {
+  width: 15vw;
 }
